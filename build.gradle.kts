@@ -12,13 +12,14 @@ repositories {
 kotlin {
     js(IR) {
         useEsModules()
-        browser()
+        nodejs()
         binaries.library()
+        binaries.executable()
     }
     sourceSets {
         val jsMain by getting {
             dependencies {
-                implementation(npm("abort-controller", "3.0.0"))
+                implementation(npm("browser-or-node", "3.0.0"))
             }
         }
     }

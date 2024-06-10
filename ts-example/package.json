@@ -1,0 +1,16 @@
+{
+  "name": "example",
+  "version": "1.0.0-SNAPSHOT",
+  "scripts": {
+    "runExample": "tsc && node Example.mjs"
+  },
+  "devDependencies": {
+    "typescript": "^5.4.5"
+  },
+  "dependencies": {
+    "browser-or-node": "^3.0.0"
+  },
+  "peerDependencies": {},
+  "optionalDependencies": {},
+  "bundledDependencies": []
+}
